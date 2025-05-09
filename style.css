@@ -6,13 +6,18 @@
 }
 body {
   font-family: 'Segoe UI', sans-serif;
-  line-height: 1.6;
+  line-height: 2.0;
   color: #f6f2f2ed;
-  background: #1e1f26;
+  background: #1329a6; 
+    background-image: url('Hintergrundplatine.jpg'); /* Pfad zum Logo */
+    background-repeat: no-repeat; /* verhindert Wiederholungen */
+    background-position: center; /* zentriert das Logo */
+    background-size: cover; /* Logo wird als fläche sichtbar */
 }
+
 a {
   text-decoration: none;
-  color: #00bcd4;
+  color: #071719;
 }
 ul {
   list-style: none;
@@ -25,11 +30,11 @@ nav {
   align-items: center;
   padding: 0rem 2rem;
   margin: 0;
-  background: #062937;
+  background: #1e9ab3;
   position: sticky;
   top: 0;
   z-index: 1000;
-  box-shadow: 0 2px 5px rgba(251, 246, 246, 0.5);
+  box-shadow: 0 2px 5px rgba(77, 56, 56, 0.5);
 }
 nav .logo {
   font-weight: bold;
@@ -41,14 +46,14 @@ nav ul {
   gap: 1.5rem;
 }
 nav a:hover {
-  color: #26d3e4;
+  color: #36777d;
 }
 
 /* Hero */
 .hero {
   height: 50vh;
-  background: linear-gradient(to right, #050f13, #0b5162);
-  color: #959da4;
+  background: linear-gradient(to right, #1b4555, #0b5162);
+  color: #e2e8ed;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -63,8 +68,8 @@ nav a:hover {
 .hero .btn {
   margin-top: 1.5rem;
   padding: 0.75rem 1.5rem;
-  background: #1691a1;
-  color: #1e1f26;
+  background: #049fb3;
+  color: #e8e9f2;
   font-weight: bold;
   border-radius: 5px;
   transition: background 0.3s;
@@ -72,7 +77,7 @@ nav a:hover {
 
 .hero .btn:hover {
   background-color: #fff;
-  color: #1e1f26;
+  color: #c3c5d5;
 }
 
 
@@ -91,7 +96,7 @@ section h2 {
   color: #00bcd4;
 }
 section p {
-  color: #ddd;
+  color: #080606;
 }
 
 /* Projektkarten */
@@ -104,14 +109,14 @@ section p {
   background: #2c2f3a;
   padding: 1.5rem;
   border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+  box-shadow: 0 5px 10px rgba(0,0,0,0.4);
   flex: 1 1 300px;
 }
 .card h3 {
   color: #00bcd4;
 }
 .card p {
-  color: #ccc;
+  color: #d3bebe;
 }
 
 /* Footer */
